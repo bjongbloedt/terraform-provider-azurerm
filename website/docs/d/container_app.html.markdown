@@ -59,6 +59,10 @@ A `secret` block supports the following:
 
 * `value` - The value for this secret.
 
+* `keyVaultUrl` - Azure Key Vault URL pointing to the secret referenced by the container app.
+
+* `identity` - Resource ID of a managed identity to authenticate with Azure Key Vault, or System to use a system-assigned identity.
+
 ---
 
 A `template` block supports the following:
